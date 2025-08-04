@@ -1,0 +1,66 @@
+// Encapsulation - using private fields and public getters/setters
+class Person {
+    private String name;
+    private int age;
+
+    public void setName(String name) { this.name = name; }
+    public void setAge(int age) { this.age = age; }
+
+    public String getName() { return name; }
+    public int getAge() { return age; }
+}
+
+// Inheritance - Employee inherits from Person
+class Employee extends Person {
+    private String designation;
+
+    public void setDesignation(String designation) {
+        this.designation = designation;
+    }
+
+    public String getDesignation() {
+        return designation;
+    }
+
+    // Polymorphism - Method Overriding
+    public void showDetails() {
+        System.out.println("Employee Name: " + getName());
+        System.out.println("Age: " + getAge());
+        System.out.println("Designation: " + getDesignation());
+    }
+}
+
+// Abstraction - Using Interface
+interface Salary {
+    void showSalary();
+}
+
+class Manager extends Employee implements Salary {
+    private double salary;
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public void showSalary() {
+        System.out.println("Salary: ₹" + salary);
+    }
+
+    // Polymorphism - Overriding again
+    public void showDetails() {
+        super.showDetails();
+        showSalary();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Manager m = new Manager();
+        m.setName("Ashutosh");
+        m.setAge(28);
+        m.setDesignation("Project Manager");
+        m.setSalary(75000);
+
+        m.showDetails();  // OOP in action!
+    }
+}
