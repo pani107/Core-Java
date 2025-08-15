@@ -1,5 +1,4 @@
 // All Types of Inheritance in One Example
-// Author: Your Name
 
 // ---------- Single Inheritance ----------
 class Animal {
