@@ -1,4 +1,3 @@
-// File: StringArrayExample.java
 public class StringArrayExample {
     public static void main(String[] args) {
 
