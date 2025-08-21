@@ -1,5 +1,3 @@
-// Example: Finding variables and methods using Abstract Classes in Java
-
 // Abstract class
 abstract class Shape {
     String type = "Shape";  // variable in abstract class
