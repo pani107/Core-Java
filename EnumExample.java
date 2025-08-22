@@ -4,10 +4,9 @@ enum Day {
 
 public class EnumExample {
     public static void main(String[] args) {
-        // Assign an enum value
+        // Assign an enum value.
         Day today = Day.WEDNESDAY;
-
-        // Using enum in switch statement
+        // Using enum in switch statement.
         switch (today) {
             case MONDAY:
                 System.out.println("Start of the week!");
@@ -21,13 +20,11 @@ public class EnumExample {
             default:
                 System.out.println("Just another day.");
         }
-
         // Loop through all enum constants
         System.out.println("\nAll Days:");
         for (Day d : Day.values()) {
             System.out.println(d);
         }
-
         // Get ordinal (index) of enum
         System.out.println("\nOrdinal of WEDNESDAY: " + Day.WEDNESDAY.ordinal());
     }
