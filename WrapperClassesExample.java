@@ -1,6 +1,6 @@
 public class WrapperClassesExample {
     public static void main(String[] args) {
-        // Primitive data types
+        // Primitive data types.
         int intValue = 10;
         double doubleValue = 20.5;
         char charValue = 'A';
@@ -18,7 +18,7 @@ public class WrapperClassesExample {
         System.out.println("Character object: " + charObj);
         System.out.println("Boolean object: " + boolObj);
 
-        // Unboxing (wrapper → primitive)
+        // Unboxing (wrapper → primitive).
         int num = intObj.intValue();
         double d = doubleObj.doubleValue();
         char c = charObj.charValue();
@@ -30,9 +30,9 @@ public class WrapperClassesExample {
         System.out.println("char: " + c);
         System.out.println("boolean: " + b);
 
-        // Auto-boxing and auto-unboxing
-        Integer autoInt = 50;   // Auto-boxing
-        int autoNum = autoInt;  // Auto-unboxing
+        // Auto-boxing and auto-unboxing.
+        Integer autoInt = 50;   // Auto-boxing.
+        int autoNum = autoInt;  // Auto-unboxing.
 
         System.out.println("\nAuto-boxing & Auto-unboxing:");
         System.out.println("autoInt: " + autoInt);
