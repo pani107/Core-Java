@@ -1,5 +1,3 @@
-// File: InterfaceExample.java
-
 // Step 1: Define an interface
 interface Animal {
     void sound();   // abstract method
