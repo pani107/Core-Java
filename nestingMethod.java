@@ -1,5 +1,3 @@
-// File: NestedMethodDemo.java
-// Author: Pranav Kuber Wadkar.
 // Description: Demonstrates nesting of methods in Java (method calling another method).
 
 public class NestedMethodDemo {
