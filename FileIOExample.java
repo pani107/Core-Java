@@ -15,7 +15,7 @@ public class FileIOExample {
             fout.close();
             System.out.println("Data written successfully to example.txt");
 
-            // ---------- Reading from a file using FileInputStream ----------
+            // Reading from a file using FileInputStream 
             FileInputStream fin = new FileInputStream("example.txt");
 
             int i;
