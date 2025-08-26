@@ -5,7 +5,7 @@ import java.io.IOException;
 public class FileIOExample {
     public static void main(String[] args) {
         try {
-            // ---------- Writing to a file using FileOutputStream ----------
+            // Writing to a file using FileOutputStream 
             FileOutputStream fout = new FileOutputStream("example.txt");
 
             String message = "Hello, this is a FileOutputStream & FileInputStream example!";
