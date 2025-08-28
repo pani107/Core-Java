@@ -23,19 +23,19 @@ class Cat extends Animal {
 
 public class DynamicDispatchExample {
     public static void main(String[] args) {
-        // Superclass reference
+        // Superclass reference.
         Animal a;
 
-        // Object of Dog
+        // Object of Dog.
         a = new Dog();
-        a.sound();   // Output: Dog barks
+        a.sound();   // Output: Dog barks.
 
         // Object of Cat
         a = new Cat();
-        a.sound();   // Output: Cat meows
+        a.sound();   // Output: Cat meows.
 
-        // Object of Animal
+        // Object of Animal.
         a = new Animal();
-        a.sound();   // Output: Animal makes a sound
+        a.sound();   // Output: Animal makes a sound.
     }
 }
