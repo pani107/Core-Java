@@ -1,6 +1,6 @@
 // All Types of Inheritance in One Example
 
-// ---------- Single Inheritance ----------
+//  Single Inheritance 
 class Animal {
     void eat() {
         System.out.println("Animal eats food.");
@@ -14,21 +14,21 @@ class Dog extends Animal {
     }
 }
 
-// ---------- Multilevel Inheritance ----------
+// Multilevel Inheritance 
 class Puppy extends Dog {
     void weep() {
         System.out.println("Puppy weeps.");
     }
 }
 
-// ---------- Hierarchical Inheritance ----------
+// Hierarchical Inheritance 
 class Cat extends Animal {
     void meow() {
         System.out.println("Cat meows.");
     }
 }
 
-// ---------- Multiple Inheritance (Using Interfaces) ----------
+// Multiple Inheritance (Using Interfaces) 
 interface Pet {
     void play();
 }
@@ -48,7 +48,7 @@ class PetDog extends Dog implements Pet, Guard {
     }
 }
 
-// ---------- Hybrid Inheritance ----------
+// Hybrid Inheritance 
 // Hybrid = Combination of more than one type
 // PetPuppy inherits from Puppy (Multilevel) + Pet (Interface)
 class PetPuppy extends Puppy implements Pet {
@@ -57,7 +57,7 @@ class PetPuppy extends Puppy implements Pet {
     }
 }
 
-// ---------- Main Class ----------
+//  Main Class 
 public class AllInheritanceExample {
     public static void main(String[] args) {
         
