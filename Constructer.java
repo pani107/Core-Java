@@ -44,7 +44,7 @@ public class ConstructorTypesExample {
 
         System.out.println();
 
-        // Copy constructor
+        // Copy constructor.
         Student s3 = new Student(s2);
         s3.display();
     }
