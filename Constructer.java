@@ -2,7 +2,7 @@ class Student {
     int id;
     String name;
 
-    // 1. Default Constructor
+    // 1. Default Constructor.
     Student() {
         id = 0;
         name = "Not Assigned";
