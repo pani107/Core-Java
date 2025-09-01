@@ -23,7 +23,7 @@ class Student {
         System.out.println("Copy Constructor Called");
     }
 
-    // Method to display student details
+    // Method to display student details.
     void display() {
         System.out.println("ID: " + id + ", Name: " + name);
     }
