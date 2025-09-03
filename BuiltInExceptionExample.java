@@ -2,7 +2,7 @@ public class BuiltInExceptionExample {
     public static void main(String[] args) {
         try {
             // ArithmeticException example
-            int result = 10 / 0; // This will throw ArithmeticException
+            int result = 10 / 0; // This will throw ArithmeticException.
             System.out.println("Result: " + result);
 
             // ArrayIndexOutOfBoundsException example
