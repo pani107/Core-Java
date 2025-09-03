@@ -9,7 +9,7 @@ public class BuiltInExceptionExample {
             int[] numbers = {1, 2, 3};
             System.out.println(numbers[5]); // Invalid index.
 
-            // NullPointerException example
+            // NullPointerException example.
             String text = null;
             System.out.println(text.length());
 
