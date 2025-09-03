@@ -7,7 +7,7 @@ public class BuiltInExceptionExample {
 
             // ArrayIndexOutOfBoundsException example
             int[] numbers = {1, 2, 3};
-            System.out.println(numbers[5]); // Invalid index
+            System.out.println(numbers[5]); // Invalid index.
 
             // NullPointerException example
             String text = null;
