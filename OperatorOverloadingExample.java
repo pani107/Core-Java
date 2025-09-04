@@ -3,7 +3,7 @@ public class OperatorOverloadingExample {
         int x = 10, y = 20;
         String s1 = "Hello", s2 = "Java";
 
-        // '+' used for numbers (Addition)
+        // '+' used for numbers. (Addition)
         int sum = x + y;
         System.out.println("Sum of numbers: " + sum);
 
