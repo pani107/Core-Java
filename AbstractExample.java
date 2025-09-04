@@ -1,11 +1,11 @@
 // Abstract class
 abstract class Shape {
-    String type = "Shape";  // variable in abstract class
+    String type = "Shape";  // variable in abstract class.
 
     // Abstract method (must be implemented by subclass)
     abstract void draw();
 
-    // Concrete method
+    // Concrete method.
     void display() {
         System.out.println("This is a shape");
     }
