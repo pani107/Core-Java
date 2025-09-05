@@ -9,7 +9,7 @@ class Student {
         System.out.println("Default Constructor Called");
     }
 
-    // 2. Parameterized Constructor
+    // 2. Parameterized Constructor.
     Student(int i, String n) {
         id = i;
         name = n;
