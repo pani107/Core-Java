@@ -16,7 +16,7 @@ class Student {
         System.out.println("Parameterized Constructor Called");
     }
 
-    // 3. Copy Constructor (Custom Constructor that takes another object)
+    // 3. Copy Constructor (Custom Constructor that takes another object).
     Student(Student s) {
         id = s.id;
         name = s.name;
