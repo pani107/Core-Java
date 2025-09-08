@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class FileExample {
     public static void main(String[] args) {
         try {
-            // 1. Create File object
+            // 1. Create File object.
             File file = new File("example.txt");
 
             // 2. Create a new file
