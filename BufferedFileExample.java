@@ -7,7 +7,7 @@ import java.io.IOException;
 public class BufferedFileExample {
     public static void main(String[] args) {
         try {
-            // Writing multiple lines using BufferedWriter
+            // Writing multiple lines using BufferedWriter.
             BufferedWriter bw = new BufferedWriter(new FileWriter("example2.txt"));
             bw.write("Hello, this is Example 2.");
             bw.newLine();  // add line break
