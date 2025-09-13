@@ -4,7 +4,7 @@ public class MultipleCatchExample {
             // Example 1: ArithmeticException
             int result = 10 / 0;
 
-            // Example 2: ArrayIndexOutOfBoundsException
+            // Example 2: ArrayIndexOutOfBoundsException.
             int arr[] = {1, 2, 3};
             System.out.println(arr[5]);
 
