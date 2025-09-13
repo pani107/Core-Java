@@ -8,7 +8,7 @@ public class MultipleCatchExample {
             int arr[] = {1, 2, 3};
             System.out.println(arr[5]);
 
-            // Example 3: NullPointerException
+            // Example 3: NullPointerException.
             String str = null;
             System.out.println(str.length());
 
