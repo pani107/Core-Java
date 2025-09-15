@@ -1,7 +1,7 @@
 public class AllLoopsExample {
     public static void main(String[] args) {
 
-        // 1. FOR LOOP
+        // 1. FOR LOOP.
         System.out.println("---- For Loop ----");
         for (int i = 1; i <= 5; i++) {
             System.out.println("For Loop count: " + i);
