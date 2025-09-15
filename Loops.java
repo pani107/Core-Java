@@ -7,7 +7,7 @@ public class AllLoopsExample {
             System.out.println("For Loop count: " + i);
         }
 
-        // 2. WHILE LOOP
+        // 2. WHILE LOOP.
         System.out.println("\n---- While Loop ----");
         int w = 1;
         while (w <= 5) {
