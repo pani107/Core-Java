@@ -2,7 +2,7 @@
 
 class Student {
     int rollNo;               // instance variable
-    String name;              // instance variable
+    String name;              // instance variable.
     static String college = "MIT";  // static variable (shared by all)
 
     // Constructor
