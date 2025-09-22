@@ -5,7 +5,7 @@ public class ExceptionExample {
         try {
             // Code that may cause exception
             int number = 10;
-            int result = number / 0;  // Division by zero (ArithmeticException)
+            int result = number / 0;  // Division by zero (ArithmeticException).
             System.out.println("Result: " + result);
 
         } catch (ArithmeticException e) {
