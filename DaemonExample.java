@@ -11,7 +11,7 @@ class DaemonExample extends Thread {
         DaemonExample t1 = new DaemonExample();
         DaemonExample t2 = new DaemonExample();
 
-        t1.setDaemon(true); // must set before start()
+        t1.setDaemon(true); // must set before start().
 
         t1.start();
         t2.start();
