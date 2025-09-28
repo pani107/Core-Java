@@ -1,4 +1,4 @@
-// Encapsulation - using private fields and public getters/setters
+// Encapsulation - using private fields and public getters/setters.
 class Person {
     private String name;
     private int age;
