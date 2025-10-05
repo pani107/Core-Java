@@ -1,7 +1,7 @@
 // Example: Static Members in Java
 
 class Student {
-    int rollNo;               // instance variable
+    int rollNo;               // instance variable.
     String name;              // instance variable.
     static String college = "MIT";  // static variable (shared by all)
 
