@@ -2,7 +2,7 @@ class Demo extends Thread {
     public void run() {
         System.out.println(getName() + " is running");
         try {
-            Thread.sleep(1000); // thread pauses
+            Thread.sleep(1000); // thread pauses.
         } catch(Exception e) {
             System.out.println(e);
         }
