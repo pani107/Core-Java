@@ -8,7 +8,7 @@ public class ArrayExample {
         System.out.println("First element: " + numbers[0]);
         System.out.println("Last element: " + numbers[numbers.length - 1]);
 
-        // 3️Using for loop
+        // 3️Using for loop.
         System.out.println("\nArray elements using for loop:");
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("Index " + i + ": " + numbers[i]);
