@@ -5,7 +5,7 @@ public class FinalizeExample {
         this.name = name;
     }
 
-    // Override finalize() method
+    // Override finalize() method.
     @Override
     protected void finalize() throws Throwable {
         System.out.println("Finalize method called for: " + name);
