@@ -1,10 +1,10 @@
-class Student {
+.class Student {
     String name;
     int age;
 
     // 1. Constructor Chaining using 'this'
     Student() {
-        this("Unknown", 0); // Calls parameterized constructor
+        this("Unknown", 0); // Calls parameterized constructor.
     }
 
     // 2. Referring to instance variables using 'this'
