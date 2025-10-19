@@ -5,7 +5,7 @@ import java.io.IOException;
 public class SimpleFileExample {
     public static void main(String[] args) {
         try {
-            // Writing to a file
+            // Writing to a file.
             FileWriter writer = new FileWriter("example1.txt");
             writer.write("Hello, this is Example 1.\n");
             writer.write("We are learning FileReader and FileWriter.");
