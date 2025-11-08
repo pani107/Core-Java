@@ -1,6 +1,6 @@
 public class SwitchContinueBreak {
     public static void main(String[] args) {
-        for (int day = 1; day <= 7; day++) {
+        for (int day = 1; day <= 7; day++) { //for loop
             switch (day) {
                 case 1:
                 case 2:
