@@ -3,7 +3,7 @@ class Worker extends Thread {
         for(int i=1; i<=5; i++) {
             System.out.println(Thread.currentThread().getName() + " - " + i);
             try {
-                Thread.sleep(500); // pause for half second
+                Thread.sleep(500); // pause for half second.
             } catch(Exception e) {
                 System.out.println(e);
             }
