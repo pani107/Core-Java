@@ -2,7 +2,7 @@ import java.io.IOException;
 
 public class OnlyThrowsExample {
 
-    // Method that declares it may throw IOException
+    // Method that declares it may throw IOException.
     static void displayMessage() throws IOException {
         System.out.println("This method declares IOException using 'throws'.");
     }
